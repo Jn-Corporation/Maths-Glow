@@ -10,6 +10,7 @@ createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <React.Suspense fallback={<div className="app-loader"><span />MathGlow is opening...</div>}>
       <App />
+      <Analytics />
     </React.Suspense>
   </React.StrictMode>
 );
