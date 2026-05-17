@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@capacitor/android": "^8.3.4",
+    "@capacitor/cli": "^8.3.4",
+    "@capacitor/core": "^8.3.4",
     "@vercel/analytics": "^2.0.1",
     "katex": "^0.16.22",
     "lucide-react": "^0.475.0",
