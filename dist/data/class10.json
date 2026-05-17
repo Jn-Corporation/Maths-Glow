@@ -1,0 +1,421 @@
+[
+  {
+    "chapter": "Real Numbers",
+    "icon": "Hash",
+    "formulas": [
+      {
+        "title": "Euclid's Division Lemma",
+        "formula": "a=bq+r,\\quad 0\\le r<b",
+        "description": "For positive integers a and b, q is quotient and r is remainder."
+      },
+      {
+        "title": "HCF and LCM Relation",
+        "formula": "HCF(a,b)\\times LCM(a,b)=a\\times b",
+        "description": "Useful when HCF or LCM of two numbers is known."
+      },
+      {
+        "title": "Prime Factor Form",
+        "formula": "n=p_1^{a_1}p_2^{a_2}p_3^{a_3}\\cdots",
+        "description": "Represents a composite number as product of powers of primes."
+      },
+      {
+        "title": "Irrationality Pattern",
+        "formula": "\\sqrt p\\text{ is irrational if }p\\text{ is prime}",
+        "description": "A standard result used in proof questions."
+      }
+    ]
+  },
+  {
+    "chapter": "Polynomials",
+    "icon": "Sigma",
+    "formulas": [
+      {
+        "title": "Quadratic Zeroes Sum",
+        "formula": "\\alpha+\\beta=-\\frac{b}{a}",
+        "description": "For ax² + bx + c, sum of zeroes is -b/a."
+      },
+      {
+        "title": "Quadratic Zeroes Product",
+        "formula": "\\alpha\\beta=\\frac{c}{a}",
+        "description": "For ax² + bx + c, product of zeroes is c/a."
+      },
+      {
+        "title": "Cubic Zeroes Sum",
+        "formula": "\\alpha+\\beta+\\gamma=-\\frac{b}{a}",
+        "description": "For ax³ + bx² + cx + d."
+      },
+      {
+        "title": "Cubic Pair Sum",
+        "formula": "\\alpha\\beta+\\beta\\gamma+\\gamma\\alpha=\\frac{c}{a}",
+        "description": "Relation between zeroes and coefficients of a cubic polynomial."
+      },
+      {
+        "title": "Cubic Product",
+        "formula": "\\alpha\\beta\\gamma=-\\frac{d}{a}",
+        "description": "Product of zeroes of ax³ + bx² + cx + d."
+      }
+    ]
+  },
+  {
+    "chapter": "Pair of Linear Equations",
+    "icon": "Equal",
+    "formulas": [
+      {
+        "title": "General Pair",
+        "formula": "a_1x+b_1y+c_1=0,\\quad a_2x+b_2y+c_2=0",
+        "description": "Standard form of two linear equations in two variables."
+      },
+      {
+        "title": "Unique Solution",
+        "formula": "\\frac{a_1}{a_2}\\ne\\frac{b_1}{b_2}",
+        "description": "Lines intersect at exactly one point."
+      },
+      {
+        "title": "No Solution",
+        "formula": "\\frac{a_1}{a_2}=\\frac{b_1}{b_2}\\ne\\frac{c_1}{c_2}",
+        "description": "Lines are parallel."
+      },
+      {
+        "title": "Infinite Solutions",
+        "formula": "\\frac{a_1}{a_2}=\\frac{b_1}{b_2}=\\frac{c_1}{c_2}",
+        "description": "Lines are coincident."
+      },
+      {
+        "title": "Cross Multiplication",
+        "formula": "\\frac{x}{b_1c_2-b_2c_1}=\\frac{y}{c_1a_2-c_2a_1}=\\frac{1}{a_1b_2-a_2b_1}",
+        "description": "Direct formula to solve a pair of linear equations."
+      }
+    ]
+  },
+  {
+    "chapter": "Quadratic Equations",
+    "icon": "Radical",
+    "formulas": [
+      {
+        "title": "Standard Form",
+        "formula": "ax^2+bx+c=0,\\quad a\\ne0",
+        "description": "Every quadratic equation can be written in this form."
+      },
+      {
+        "title": "Quadratic Formula",
+        "formula": "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}",
+        "description": "Finds roots of any quadratic equation."
+      },
+      {
+        "title": "Discriminant",
+        "formula": "D=b^2-4ac",
+        "description": "Determines the nature of roots."
+      },
+      {
+        "title": "Real and Equal Roots",
+        "formula": "D=0",
+        "description": "The quadratic equation has two equal real roots."
+      },
+      {
+        "title": "Real and Distinct Roots",
+        "formula": "D>0",
+        "description": "The quadratic equation has two different real roots."
+      },
+      {
+        "title": "No Real Roots",
+        "formula": "D<0",
+        "description": "The quadratic equation has no real roots."
+      }
+    ]
+  },
+  {
+    "chapter": "Arithmetic Progressions",
+    "icon": "ListOrdered",
+    "formulas": [
+      {
+        "title": "nth Term",
+        "formula": "a_n=a+(n-1)d",
+        "description": "Finds any term of an arithmetic progression."
+      },
+      {
+        "title": "Sum of n Terms",
+        "formula": "S_n=\\frac{n}{2}[2a+(n-1)d]",
+        "description": "Sum when first term and common difference are known."
+      },
+      {
+        "title": "Sum Using Last Term",
+        "formula": "S_n=\\frac{n}{2}(a+l)",
+        "description": "Sum when first and last terms are known."
+      },
+      {
+        "title": "Common Difference",
+        "formula": "d=a_{n+1}-a_n",
+        "description": "Difference between two consecutive terms."
+      }
+    ]
+  },
+  {
+    "chapter": "Triangles",
+    "icon": "Triangle",
+    "formulas": [
+      {
+        "title": "Similarity Criterion",
+        "formula": "AA,\\ SSS,\\ SAS",
+        "description": "Standard criteria for proving triangles similar."
+      },
+      {
+        "title": "Basic Proportionality Theorem",
+        "formula": "\\frac{AD}{DB}=\\frac{AE}{EC}",
+        "description": "If a line is parallel to one side of a triangle, it divides the other two sides proportionally."
+      },
+      {
+        "title": "Area Ratio of Similar Triangles",
+        "formula": "\\frac{ar(\\triangle ABC)}{ar(\\triangle PQR)}=\\frac{AB^2}{PQ^2}",
+        "description": "Ratio of areas equals ratio of squares of corresponding sides."
+      },
+      {
+        "title": "Pythagoras Theorem",
+        "formula": "AC^2=AB^2+BC^2",
+        "description": "For a right triangle with AC as hypotenuse."
+      }
+    ]
+  },
+  {
+    "chapter": "Coordinate Geometry",
+    "icon": "Map",
+    "formulas": [
+      {
+        "title": "Distance Formula",
+        "formula": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}",
+        "description": "Distance between two points in a plane."
+      },
+      {
+        "title": "Section Formula",
+        "formula": "P\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n}\\right)",
+        "description": "Point dividing a line segment internally in ratio m:n."
+      },
+      {
+        "title": "Midpoint Formula",
+        "formula": "M\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)",
+        "description": "Coordinates of the midpoint of a line segment."
+      },
+      {
+        "title": "Area of Triangle",
+        "formula": "A=\\frac{1}{2}|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|",
+        "description": "Area of a triangle using coordinates of vertices."
+      }
+    ]
+  },
+  {
+    "chapter": "Introduction to Trigonometry",
+    "icon": "Activity",
+    "formulas": [
+      {
+        "title": "Sine Ratio",
+        "formula": "\\sin\\theta=\\frac{Perpendicular}{Hypotenuse}",
+        "description": "Trigonometric ratio for a right triangle."
+      },
+      {
+        "title": "Cosine Ratio",
+        "formula": "\\cos\\theta=\\frac{Base}{Hypotenuse}",
+        "description": "Trigonometric ratio for a right triangle."
+      },
+      {
+        "title": "Tangent Ratio",
+        "formula": "\\tan\\theta=\\frac{Perpendicular}{Base}",
+        "description": "Also equals sin theta divided by cos theta."
+      },
+      {
+        "title": "Reciprocal Ratios",
+        "formula": "\\cosec\\theta=\\frac{1}{\\sin\\theta},\\quad \\sec\\theta=\\frac{1}{\\cos\\theta},\\quad \\cot\\theta=\\frac{1}{\\tan\\theta}",
+        "description": "Defines cosecant, secant, and cotangent."
+      },
+      {
+        "title": "Identity 1",
+        "formula": "\\sin^2\\theta+\\cos^2\\theta=1",
+        "description": "The most used trigonometric identity."
+      },
+      {
+        "title": "Identity 2",
+        "formula": "1+\\tan^2\\theta=\\sec^2\\theta",
+        "description": "Useful for simplifying tangent and secant expressions."
+      },
+      {
+        "title": "Identity 3",
+        "formula": "1+\\cot^2\\theta=\\cosec^2\\theta",
+        "description": "Useful for simplifying cotangent and cosecant expressions."
+      },
+      {
+        "title": "Standard Values",
+        "formula": "\\sin 30^\\circ=\\frac12,\\ \\cos 60^\\circ=\\frac12,\\ \\tan45^\\circ=1",
+        "description": "Common values used in board exam questions."
+      }
+    ]
+  },
+  {
+    "chapter": "Applications of Trigonometry",
+    "icon": "Mountain",
+    "formulas": [
+      {
+        "title": "Tangent in Height Problems",
+        "formula": "\\tan\\theta=\\frac{height}{distance}",
+        "description": "Used when angle of elevation or depression is given."
+      },
+      {
+        "title": "Sine in Slant Problems",
+        "formula": "\\sin\\theta=\\frac{height}{slant\\ distance}",
+        "description": "Helpful when the line of sight length is known."
+      },
+      {
+        "title": "Cosine in Distance Problems",
+        "formula": "\\cos\\theta=\\frac{horizontal\\ distance}{slant\\ distance}",
+        "description": "Used to connect horizontal distance and line of sight."
+      }
+    ]
+  },
+  {
+    "chapter": "Circles",
+    "icon": "Circle",
+    "formulas": [
+      {
+        "title": "Tangent Radius Property",
+        "formula": "OP\\perp PT",
+        "description": "Radius through point of contact is perpendicular to tangent."
+      },
+      {
+        "title": "Equal Tangents",
+        "formula": "PA=PB",
+        "description": "Tangents drawn from an external point to a circle are equal."
+      },
+      {
+        "title": "Circle Area",
+        "formula": "A=\\pi r^2",
+        "description": "Area enclosed by a circle."
+      },
+      {
+        "title": "Circumference",
+        "formula": "C=2\\pi r",
+        "description": "Perimeter of a circle."
+      }
+    ]
+  },
+  {
+    "chapter": "Areas Related to Circles",
+    "icon": "PieChart",
+    "formulas": [
+      {
+        "title": "Sector Area",
+        "formula": "A=\\frac{\\theta}{360^\\circ}\\pi r^2",
+        "description": "Area of a sector with central angle theta."
+      },
+      {
+        "title": "Arc Length",
+        "formula": "l=\\frac{\\theta}{360^\\circ}2\\pi r",
+        "description": "Length of an arc subtending angle theta."
+      },
+      {
+        "title": "Segment Area",
+        "formula": "Area\\ of\\ segment=Area\\ of\\ sector-Area\\ of\\ triangle",
+        "description": "Used for minor or major segment problems."
+      },
+      {
+        "title": "Annulus Area",
+        "formula": "A=\\pi(R^2-r^2)",
+        "description": "Area between two concentric circles."
+      }
+    ]
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "icon": "Box",
+    "formulas": [
+      {
+        "title": "Cylinder TSA",
+        "formula": "TSA=2\\pi r(r+h)",
+        "description": "Total surface area of a cylinder."
+      },
+      {
+        "title": "Cone TSA",
+        "formula": "TSA=\\pi r(l+r)",
+        "description": "Total surface area of a cone."
+      },
+      {
+        "title": "Frustum CSA",
+        "formula": "CSA=\\pi(R+r)l",
+        "description": "Curved surface area of a frustum of a cone."
+      },
+      {
+        "title": "Frustum TSA",
+        "formula": "TSA=\\pi(R+r)l+\\pi R^2+\\pi r^2",
+        "description": "Total surface area of a frustum."
+      },
+      {
+        "title": "Frustum Volume",
+        "formula": "V=\\frac{1}{3}\\pi h(R^2+r^2+Rr)",
+        "description": "Volume of a frustum of a cone."
+      },
+      {
+        "title": "Hemisphere TSA",
+        "formula": "TSA=3\\pi r^2",
+        "description": "Total surface area of a hemisphere."
+      },
+      {
+        "title": "Hemisphere Volume",
+        "formula": "V=\\frac{2}{3}\\pi r^3",
+        "description": "Volume of a hemisphere."
+      }
+    ]
+  },
+  {
+    "chapter": "Statistics",
+    "icon": "ChartNoAxesColumn",
+    "formulas": [
+      {
+        "title": "Mean Direct Method",
+        "formula": "\\bar{x}=\\frac{\\sum f_ix_i}{\\sum f_i}",
+        "description": "Mean of grouped data."
+      },
+      {
+        "title": "Assumed Mean Method",
+        "formula": "\\bar{x}=a+\\frac{\\sum f_id_i}{\\sum f_i}",
+        "description": "Here dᵢ = xᵢ - a."
+      },
+      {
+        "title": "Step Deviation Method",
+        "formula": "\\bar{x}=a+h\\frac{\\sum f_iu_i}{\\sum f_i}",
+        "description": "Here uᵢ = (xᵢ - a)/h."
+      },
+      {
+        "title": "Mode",
+        "formula": "Mode=l+\\frac{f_1-f_0}{2f_1-f_0-f_2}\\times h",
+        "description": "Mode of grouped data."
+      },
+      {
+        "title": "Median",
+        "formula": "Median=l+\\frac{\\frac{n}{2}-cf}{f}\\times h",
+        "description": "Median of grouped data."
+      }
+    ]
+  },
+  {
+    "chapter": "Probability",
+    "icon": "Dice5",
+    "formulas": [
+      {
+        "title": "Classical Probability",
+        "formula": "P(E)=\\frac{Number\\ of\\ favourable\\ outcomes}{Total\\ number\\ of\\ outcomes}",
+        "description": "Used when all outcomes are equally likely."
+      },
+      {
+        "title": "Complementary Event",
+        "formula": "P(\\bar E)=1-P(E)",
+        "description": "Probability of event not happening."
+      },
+      {
+        "title": "Sure Event",
+        "formula": "P(S)=1",
+        "description": "Probability of the whole sample space."
+      },
+      {
+        "title": "Impossible Event",
+        "formula": "P(\\varnothing)=0",
+        "description": "Probability of an event with no outcomes."
+      }
+    ]
+  }
+]
