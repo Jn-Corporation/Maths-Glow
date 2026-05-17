@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">Maths Glow</string>
-    <string name="title_activity_main">Maths Glow</string>
-    <string name="package_name">com.jn.mathsglow.app</string>
-    <string name="custom_url_scheme">com.jn.mathsglow.app</string>
-</resources>
