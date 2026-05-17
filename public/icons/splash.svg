@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#fff4fa"/>
+      <stop offset=".5" stop-color="#ffe2ef"/>
+      <stop offset="1" stop-color="#f0e6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <circle cx="1040" cy="120" r="210" fill="#ffc8de" opacity=".55"/>
+  <circle cx="140" cy="620" r="240" fill="#d9c4ff" opacity=".5"/>
+  <text x="640" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="84" font-weight="800" fill="#7f3157">MathGlow</text>
+  <text x="640" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" fill="#9a5d78">UP Board Maths Formula Handbook</text>
+</svg>

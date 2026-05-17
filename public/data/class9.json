@@ -1,0 +1,328 @@
+[
+  {
+    "chapter": "Number Systems",
+    "icon": "Hash",
+    "formulas": [
+      {
+        "title": "Laws of Exponents",
+        "formula": "a^m \\times a^n = a^{m+n},\\quad \\frac{a^m}{a^n}=a^{m-n},\\quad (a^m)^n=a^{mn}",
+        "description": "Used for simplifying powers where the base is the same."
+      },
+      {
+        "title": "Rationalization Identity",
+        "formula": "(a+b)(a-b)=a^2-b^2",
+        "description": "Useful for removing surds from denominators."
+      },
+      {
+        "title": "Square Root Form",
+        "formula": "\\sqrt{ab}=\\sqrt a\\sqrt b,\\quad \\sqrt{\\frac a b}=\\frac{\\sqrt a}{\\sqrt b}",
+        "description": "Valid for non-negative values of a and positive b."
+      },
+      {
+        "title": "Decimal Expansion Rule",
+        "formula": "\\frac{p}{q}\\text{ terminates if }q=2^m5^n",
+        "description": "After reducing p/q, check the prime factors of the denominator."
+      }
+    ]
+  },
+  {
+    "chapter": "Polynomials",
+    "icon": "Sigma",
+    "formulas": [
+      {
+        "title": "Remainder Theorem",
+        "formula": "p(x)\\div (x-a)\\Rightarrow \\text{remainder}=p(a)",
+        "description": "Substitute x = a to find the remainder directly."
+      },
+      {
+        "title": "Factor Theorem",
+        "formula": "(x-a)\\text{ is a factor of }p(x)\\Leftrightarrow p(a)=0",
+        "description": "A quick test for checking whether a linear factor divides a polynomial."
+      },
+      {
+        "title": "Algebraic Identity 1",
+        "formula": "(x+y)^2=x^2+2xy+y^2",
+        "description": "Used in expansion and factorisation problems."
+      },
+      {
+        "title": "Algebraic Identity 2",
+        "formula": "(x-y)^2=x^2-2xy+y^2",
+        "description": "A standard identity for squares of binomials."
+      },
+      {
+        "title": "Algebraic Identity 3",
+        "formula": "x^2-y^2=(x+y)(x-y)",
+        "description": "Difference of squares, often used in factorisation."
+      },
+      {
+        "title": "Cube Identity",
+        "formula": "(x+y)^3=x^3+y^3+3xy(x+y)",
+        "description": "Compact form for expanding a sum of cubes."
+      },
+      {
+        "title": "Sum of Cubes",
+        "formula": "x^3+y^3=(x+y)(x^2-xy+y^2)",
+        "description": "Important for factorisation of cubic expressions."
+      },
+      {
+        "title": "Difference of Cubes",
+        "formula": "x^3-y^3=(x-y)(x^2+xy+y^2)",
+        "description": "Used when a cubic expression appears as a difference."
+      }
+    ]
+  },
+  {
+    "chapter": "Coordinate Geometry",
+    "icon": "Map",
+    "formulas": [
+      {
+        "title": "Distance From Origin",
+        "formula": "OP=\\sqrt{x^2+y^2}",
+        "description": "Distance of point P(x, y) from the origin."
+      },
+      {
+        "title": "Quadrant Sign Rule",
+        "formula": "I:(+,+),\\ II:(-,+),\\ III:(-,-),\\ IV:(+,-)",
+        "description": "Helps locate a point quickly on the Cartesian plane."
+      },
+      {
+        "title": "Point on X-axis",
+        "formula": "(x,0)",
+        "description": "Every point on the x-axis has y-coordinate 0."
+      },
+      {
+        "title": "Point on Y-axis",
+        "formula": "(0,y)",
+        "description": "Every point on the y-axis has x-coordinate 0."
+      }
+    ]
+  },
+  {
+    "chapter": "Linear Equations in Two Variables",
+    "icon": "Equal",
+    "formulas": [
+      {
+        "title": "General Form",
+        "formula": "ax+by+c=0",
+        "description": "The standard form of a linear equation in two variables."
+      },
+      {
+        "title": "Intercept Form",
+        "formula": "\\frac{x}{a}+\\frac{y}{b}=1",
+        "description": "Here a and b are the x-intercept and y-intercept."
+      },
+      {
+        "title": "Slope-Intercept Form",
+        "formula": "y=mx+c",
+        "description": "m is the slope and c is the y-intercept."
+      }
+    ]
+  },
+  {
+    "chapter": "Triangles",
+    "icon": "Triangle",
+    "formulas": [
+      {
+        "title": "Angle Sum Property",
+        "formula": "\\angle A+\\angle B+\\angle C=180^\\circ",
+        "description": "The sum of interior angles of a triangle is always 180 degrees."
+      },
+      {
+        "title": "Exterior Angle Property",
+        "formula": "\\text{Exterior angle}=\\text{sum of two opposite interior angles}",
+        "description": "Used in angle chasing problems."
+      },
+      {
+        "title": "Pythagoras Theorem",
+        "formula": "h^2=p^2+b^2",
+        "description": "For a right triangle, hypotenuse squared equals the sum of squares of the other sides."
+      },
+      {
+        "title": "Congruence Rules",
+        "formula": "SSS,\\ SAS,\\ ASA,\\ AAS,\\ RHS",
+        "description": "Standard tests for proving two triangles congruent."
+      }
+    ]
+  },
+  {
+    "chapter": "Quadrilaterals",
+    "icon": "Shapes",
+    "formulas": [
+      {
+        "title": "Angle Sum",
+        "formula": "\\angle A+\\angle B+\\angle C+\\angle D=360^\\circ",
+        "description": "The sum of all interior angles of a quadrilateral."
+      },
+      {
+        "title": "Parallelogram Area",
+        "formula": "A=base\\times height",
+        "description": "Applies to parallelograms and rectangles."
+      },
+      {
+        "title": "Rhombus Area",
+        "formula": "A=\\frac{1}{2}d_1d_2",
+        "description": "Area using the two diagonals of a rhombus."
+      },
+      {
+        "title": "Trapezium Area",
+        "formula": "A=\\frac{1}{2}(a+b)h",
+        "description": "a and b are the parallel sides, h is the height."
+      }
+    ]
+  },
+  {
+    "chapter": "Circles",
+    "icon": "Circle",
+    "formulas": [
+      {
+        "title": "Circumference",
+        "formula": "C=2\\pi r",
+        "description": "Distance around a circle."
+      },
+      {
+        "title": "Area of Circle",
+        "formula": "A=\\pi r^2",
+        "description": "Area enclosed by a circle of radius r."
+      },
+      {
+        "title": "Diameter",
+        "formula": "d=2r",
+        "description": "The longest chord of a circle."
+      },
+      {
+        "title": "Angle at Centre",
+        "formula": "\\angle AOB=2\\angle ACB",
+        "description": "Angle subtended by an arc at the centre is double the angle at the circumference."
+      }
+    ]
+  },
+  {
+    "chapter": "Heron's Formula",
+    "icon": "Ruler",
+    "formulas": [
+      {
+        "title": "Semi-Perimeter",
+        "formula": "s=\\frac{a+b+c}{2}",
+        "description": "Half of the perimeter of a triangle."
+      },
+      {
+        "title": "Heron's Formula",
+        "formula": "A=\\sqrt{s(s-a)(s-b)(s-c)}",
+        "description": "Area of a triangle when all three sides are known."
+      },
+      {
+        "title": "Equilateral Triangle Area",
+        "formula": "A=\\frac{\\sqrt3}{4}a^2",
+        "description": "Area when all sides of the triangle are equal."
+      }
+    ]
+  },
+  {
+    "chapter": "Surface Areas and Volumes",
+    "icon": "Box",
+    "formulas": [
+      {
+        "title": "Cuboid CSA",
+        "formula": "CSA=2h(l+b)",
+        "description": "Curved or lateral surface area of a cuboid."
+      },
+      {
+        "title": "Cuboid TSA",
+        "formula": "TSA=2(lb+bh+hl)",
+        "description": "Total surface area of a cuboid."
+      },
+      {
+        "title": "Cuboid Volume",
+        "formula": "V=lbh",
+        "description": "Volume of a cuboid."
+      },
+      {
+        "title": "Cube TSA",
+        "formula": "TSA=6a^2",
+        "description": "Total surface area of a cube."
+      },
+      {
+        "title": "Cylinder CSA",
+        "formula": "CSA=2\\pi rh",
+        "description": "Curved surface area of a cylinder."
+      },
+      {
+        "title": "Cylinder Volume",
+        "formula": "V=\\pi r^2h",
+        "description": "Volume of a cylinder."
+      },
+      {
+        "title": "Cone CSA",
+        "formula": "CSA=\\pi rl",
+        "description": "Curved surface area of a cone."
+      },
+      {
+        "title": "Cone Volume",
+        "formula": "V=\\frac{1}{3}\\pi r^2h",
+        "description": "Volume of a cone."
+      },
+      {
+        "title": "Sphere Surface Area",
+        "formula": "SA=4\\pi r^2",
+        "description": "Surface area of a sphere."
+      },
+      {
+        "title": "Sphere Volume",
+        "formula": "V=\\frac{4}{3}\\pi r^3",
+        "description": "Volume of a sphere."
+      }
+    ]
+  },
+  {
+    "chapter": "Statistics",
+    "icon": "ChartNoAxesColumn",
+    "formulas": [
+      {
+        "title": "Mean",
+        "formula": "\\bar{x}=\\frac{\\sum x_i}{n}",
+        "description": "Average of ungrouped observations."
+      },
+      {
+        "title": "Range",
+        "formula": "Range=Highest\\ value-Lowest\\ value",
+        "description": "Measures spread using extreme values."
+      },
+      {
+        "title": "Class Mark",
+        "formula": "x_i=\\frac{lower\\ limit+upper\\ limit}{2}",
+        "description": "Midpoint of a class interval."
+      },
+      {
+        "title": "Mean for Grouped Data",
+        "formula": "\\bar{x}=\\frac{\\sum f_ix_i}{\\sum f_i}",
+        "description": "Weighted mean using frequencies."
+      }
+    ]
+  },
+  {
+    "chapter": "Probability",
+    "icon": "Dice5",
+    "formulas": [
+      {
+        "title": "Experimental Probability",
+        "formula": "P(E)=\\frac{Number\\ of\\ trials\\ in\\ which\\ E\\ happened}{Total\\ number\\ of\\ trials}",
+        "description": "Probability based on actual experiment results."
+      },
+      {
+        "title": "Probability Range",
+        "formula": "0\\le P(E)\\le 1",
+        "description": "Every probability lies between 0 and 1."
+      },
+      {
+        "title": "Certain Event",
+        "formula": "P(E)=1",
+        "description": "An event that definitely occurs."
+      },
+      {
+        "title": "Impossible Event",
+        "formula": "P(E)=0",
+        "description": "An event that cannot occur."
+      }
+    ]
+  }
+]
