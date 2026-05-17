@@ -3,7 +3,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import 'katex/dist/katex.min.css';
 import './styles.css';
-
+import { Analytics } from '@vercel/analytics/react';
 const App = React.lazy(() => import('./App.jsx'));
 
 createRoot(document.getElementById('root')).render(
