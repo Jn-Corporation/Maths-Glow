@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import 'katex/dist/katex.min.css';
